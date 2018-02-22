@@ -41,7 +41,7 @@ public class EchoDialog : IDialog<object>
         }
         else
         {
-            await context.PostAsync($"{this.count++}: You aquarked {message.Text} !!!   ");
+            await context.PostAsync($"{this.count++}: You squarked {message.Text} !!!   ");
             context.Wait(MessageReceivedAsync);
         }
     }
